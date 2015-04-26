@@ -1,6 +1,13 @@
 # Capistrano::Demo
 
-TODO: Write a gem description
+Creating demo-host for git branch.
+
+## Requirements/Restrictions
+* git
+* nginx
+* unicorn
+
+Allow deploy user restart server or run other command without sudo password
 
 ## Installation
 
@@ -15,6 +22,11 @@ And then execute:
 Or install it yourself as:
 
     $ gem install capistrano-demo
+    
+In Capfile add line:
+
+    require 'capistrano/demo'
+
 
 ## Usage
 
